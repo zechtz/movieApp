@@ -1,0 +1,26 @@
+// Index page style
+.movies-grid {
+  .movie-card {
+    width:220px;
+    margin:auto;
+    .poster img {
+      height: 325px;
+      width:100%;
+    }
+    .movie-info {
+      .title { height: 4em; }
+      h6{
+        color: #fff;
+      }
+    }
+  }
+}
+#main-content{
+  padding: 20px 0;
+  & h3{
+    color: #fff;
+  }
+  & h4{
+    @extend h3;
+  }
+}
