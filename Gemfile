@@ -30,6 +30,7 @@ gem 'gon', '~> 5.1.2'
 
 gem 'redis', '~> 3.0.1'
 gem 'hiredis', '~> 0.4.5'
+gem 'rails_12factor', group: :production
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
