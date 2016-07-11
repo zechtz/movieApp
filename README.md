@@ -1,5 +1,4 @@
 # Movie App
-===========
 A Sample MovieApp with Braintree Payement Integration
 
 ### Getting started
