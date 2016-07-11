@@ -37,7 +37,6 @@ class TransactionsController < ApplicationController
     render :new
   end
 end
- 
 
   private
   def generate_client_token
@@ -53,5 +52,4 @@ end
       redirect_to root_url, alert: "Please add some items to your cart before processing your transaction!"
     end
   end
- 
 end
