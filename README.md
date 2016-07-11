@@ -15,7 +15,9 @@ This will create a config/application.yml file and will automatically add it to 
 
 ### Braintree configuration keys
 BRAINTREE_MERCHANT_ID: 'your braintree merchant id'
+
 BRAINTREE_PUBLIC_KEY: 'your braintree public key'
+
 BRAINTREE_PRIVATE_KEY: 'your braintree private key'
 
 ### Importing sample movie data into your app
