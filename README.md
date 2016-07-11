@@ -26,8 +26,9 @@ open the rails console `rails console` and then type
 
 `require 'csv'` 
 
+```ruby 
 CSV.foreach(Rails.root.join("db/movies.csv"), headers: true) do |row|
   Movie.find_or_create_by(title: row[0], release_year: row[1], price: row[2], description: row[3], imdb_id: row[4], poster_url: row[5])
 end
 ```
-Then when you're done just fire up your rails app `rails server` 
+When you're done just fire up your rails app `rails server` 
