@@ -6,12 +6,12 @@ A Sample MovieApp with Braintree Payement Integration
 This app uses Redis so make sure you have redis installed and is up & running
 
 ### To try this out on your machine 
-*Clone the app
-*run `bundle install`
-*Create a braintree sandbox account here `https://www.braintreepayments.com/`
-*Run `rails generate figaro:install` 
+- Clone the app
+- run `bundle install`
+- Create a braintree sandbox account here `https://www.braintreepayments.com/`
+- Run `rails generate figaro:install` 
 This will create a config/application.yml file and will automatically add it to your .gitignore list 
-*Add your braintree configuration credentials in the config file 
+- Add your braintree configuration credentials in the config file 
 
 ### Braintree configuration keys
 BRAINTREE_MERCHANT_ID: 'your braintree merchant id'
