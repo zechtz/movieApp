@@ -10,7 +10,7 @@ This app uses Redis so make sure you have redis installed and is up & running
 - Create a braintree sandbox account here `https://www.braintreepayments.com/`
 - Run `rails generate figaro:install` 
 This will create a config/application.yml file and will automatically add it to your .gitignore list 
-- Add your braintree configuration credentials in the config file 
+- Add your braintree configuration credentials in the application.yml file 
 
 ### Braintree configuration keys
 BRAINTREE_MERCHANT_ID: 'your braintree merchant id'
